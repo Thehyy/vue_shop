@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'D:\\StudyTools\\node\\node.exe',
+1 verbose cli   'D:\\StudyTools\\node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--loglevel',
+1 verbose cli   'error',
+1 verbose cli   '--registry=https://registry.npm.taobao.org',
+1 verbose cli   '--disturl=https://npm.taobao.org/dist',
+1 verbose cli   'element-ui'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v14.15.1
+4 verbose npm-session 8f222f75a4ecb5f1
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData error for element-ui@latest request to https://registry.npm.taobao.org/element-ui failed, reason: getaddrinfo ENOTFOUND registry.npm.taobao.org
+8 timing stage:rollbackFailedOptional Completed in 3ms
+9 timing stage:runTopLevelLifecycles Completed in 30747ms
+10 verbose type system
+11 verbose stack FetchError: request to https://registry.npm.taobao.org/element-ui failed, reason: getaddrinfo ENOTFOUND registry.npm.taobao.org
+11 verbose stack     at ClientRequest.<anonymous> (D:\StudyTools\node\node_modules\npm\node_modules\node-fetch-npm\src\index.js:68:14)
+11 verbose stack     at ClientRequest.emit (events.js:315:20)
+11 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:469:9)
+11 verbose stack     at TLSSocket.emit (events.js:315:20)
+11 verbose stack     at emitErrorNT (internal/streams/destroy.js:106:8)
+11 verbose stack     at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+11 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:80:21)
+12 verbose cwd F:\webCodes\myproject
+13 verbose Windows_NT 10.0.18363
+14 verbose argv "D:\\StudyTools\\node\\node.exe" "D:\\StudyTools\\node\\node_modules\\npm\\bin\\npm-cli.js" "install" "--loglevel" "error" "--registry=https://registry.npm.taobao.org" "--disturl=https://npm.taobao.org/dist" "element-ui"
+15 verbose node v14.15.1
+16 verbose npm  v6.14.8
+17 error code ENOTFOUND
+18 error errno ENOTFOUND
+19 error network request to https://registry.npm.taobao.org/element-ui failed, reason: getaddrinfo ENOTFOUND registry.npm.taobao.org
+20 error network This is a problem related to network connectivity.
+20 error network In most cases you are behind a proxy or have bad network settings.
+20 error network
+20 error network If you are behind a proxy, please make sure that the
+20 error network 'proxy' config is set properly.  See: 'npm help config'
+21 verbose exit [ 1, true ]

@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'D:\\StudyTools\\node\\node.exe',
+1 verbose cli   'D:\\StudyTools\\node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'element-ui/lib/locale/lang/'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v14.15.1
+4 verbose npm-session 64b36df2ea6d52d7
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData error for file:element-ui\lib\locale\lang Could not install from "element-ui\lib\locale\lang" as it does not contain a package.json file.
+8 timing stage:rollbackFailedOptional Completed in 1ms
+9 timing stage:runTopLevelLifecycles Completed in 31043ms
+10 verbose stack Error: ENOENT: no such file or directory, open 'F:\webCodes\myproject\element-ui\lib\locale\lang\package.json'
+11 verbose cwd F:\webCodes\myproject
+12 verbose Windows_NT 10.0.18363
+13 verbose argv "D:\\StudyTools\\node\\node.exe" "D:\\StudyTools\\node\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "element-ui/lib/locale/lang/"
+14 verbose node v14.15.1
+15 verbose npm  v6.14.8
+16 error code ENOLOCAL
+17 error Could not install from "element-ui\lib\locale\lang" as it does not contain a package.json file.
+18 verbose exit [ 1, true ]
